@@ -1,0 +1,2 @@
+.cache/
+#ignore all the docker files used to build the site during testing and editing. 
