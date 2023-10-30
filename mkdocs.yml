@@ -105,20 +105,6 @@ copyright: >
 plugins:
   - rss:
   - optimize:
-  - privacy:
-  - glightbox:
-      touchNavigation: true
-      loop: false
-      effect: zoom
-      slide_effect: slide
-      width: 100%
-      height: auto
-      zoomable: true
-      draggable: true
-      skip_classes:
-        - video
-      auto_caption: false
-      caption_position: bottom
   - pdf-export:
   - mkdocs-video:
 
