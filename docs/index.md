@@ -1,5 +1,5 @@
 # XPA Simulator User Guide
 
-For more info  :bootstrap-envelope: <mjt@milestone.us>
+For more info  :envelope: <mjt@milestone.us>
 
 
