@@ -2,14 +2,14 @@
 
 ```mermaid
 flowchart LR
+    A <===> C(XProtect Event Server):::XPClass
     subgraph XPA Simulator Server
         A[XProtect Access Service]:::XPClass <===>  B[XPA Simulator]:::XPClass
     end
-    A <===> C(XProtect Event Server):::XPClass
     subgraph XProtect Server
         C(XProtect Event Server):::XPClass <===> D(XProtect Access Plugin):::XPClass
     end
-    linkStyle 1, 2, 3 stroke:#0f0,stroke-width:4px
+    linkStyle 1,2,3 stroke:#0f0,stroke-width:4px
     classDef XPClass fill:#efb, stroke:#000, stroke-width:2px
 ```
 
