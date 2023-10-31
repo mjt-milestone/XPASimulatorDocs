@@ -10,14 +10,12 @@ theme:
     - navigation.footer
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.top
-    - toc.follow
+    - toc.integrate
   logo: assets/GlassLogoTrans.png
   favicon: images/favicon.ico
   font:
-    text: Actor
+    text: Noto Sans Symbols
     code: Prompt
   palette: 
       # Palette toggle for light mode
@@ -45,6 +43,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - md_in_html
+  - meta
   - toc:
       permalink: true
 
@@ -56,9 +55,6 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      options:
-        custom_icons:
-          - overrides/.icons
   - pymdownx.highlight:
       anchor_linenums: true
       use_pygments: true
@@ -68,7 +64,10 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
