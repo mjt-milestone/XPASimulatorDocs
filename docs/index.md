@@ -13,6 +13,13 @@ This site contains all of the instructions and guidance required to make full us
 
 ***
 
+??? question "How do I stop the error messages?"
+    Each time you open the WebUI for the XPA Simulator an error message appears. This message contains the installation date, and reminds users that a new configuration is required before the simulator can be used. 
+
+    Select the **Do not display this message again.** option to prevent this message from appearing each time this version of the simulator's WebUI is opened. 
+
+    ![Installation Warning](images/Install.Warn1.png)
+
 For more info  :envelope: <mjt@milestone.us>
 
 
