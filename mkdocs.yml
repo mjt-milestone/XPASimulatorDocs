@@ -8,6 +8,8 @@ theme:
     - content.code.copy
     - header.autohide
     - navigation.footer
+    - navigation.path
+    - navigation.prune
     - navigation.instant
     - navigation.tracking
     - navigation.top
@@ -114,3 +116,9 @@ nav:
     - Intro/index.md
   - Getting Started: 
     - Start/index.md
+  - Building the Simulator:
+    - Sim/index.md
+  - User Interface:
+    - UI/index.md
+  - Upgrading the Simulator:
+    - Up/index.md
