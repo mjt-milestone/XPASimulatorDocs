@@ -1,0 +1,23 @@
+git+https://github.com/MilestoneSystemsInc/mkdocs-material-insiders.git
+
+# These plugins are optional when using the mkdocs-material or
+# mkdocs-material-insiders themes. Any plugins that should be available in our
+# mkdocs container image can be added here, and our customized image will be
+# published to ghcr.io/milestonesystemsinc.
+ 
+mkdocs-awesome-pages-plugin~=2.9.2
+mkdocs-rss-plugin~=1.8.0
+mkdocs-glightbox~=0.3.4
+pillow~=10.0.0
+cairosvg~=2.7.1
+readtime~=3.0.0
+mkdocs-table-reader-plugin~=2.0.1
+ 
+# pdf plugin
+ 
+mkdocs-pdf-export-plugin~=0.5.10
+weasyprint~=59.0
+ 
+# video
+ 
+mkdocs-video~=1.5.0
