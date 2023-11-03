@@ -94,15 +94,31 @@
     + Click on the green check marks to remove access, and click on the red x-marks to grant access.
 
 === "Live"
-    image goes here
+    ![Live tab UI](img/WebUI.Live.png)
     
-    > + XPA: OnGuard
-    > + IP Address: 192.168.101.107
-    > + Reader: LNL-1300 (Single Interface)
-    > + Address: 0
-    > + Port: Reader 1
-    > + Cardholders: 1
-    > + Output: Wiegand/Prox (*set for each reader*)
+    All of the Credentials are displayed on the left half of the web UI, and all of the doors are on the right half. Searching for individual credentials or doors is available using the search fields above each display area, it is also possible to navigate through the entire list of credentials or doors using the controls at the bottom of each display.
+
+    + Select the **Live** tab.
+    + To swipe a badge:
+    + Drag and drop any credential from the display onto any in or out readers connected to a displayed door.
+    + Select any badge listed under a credential. The possible readers you can swipe the badge on will change color to yellow.
+    
+    ![Yellow badge and reader highlight](img/badge2reader.png)
+    
+    + The door will change color (green for granted access, red for denied access) after the swipe.
+
+    ![Green reader on swipe](img/Live.Swipe.png)
+
+    + To create a door held event:
+    + Drag and drop any credential from the display onto any in or out access point connected to a displayed door.
+    + Immediately click the Open button at the bottom of the chosen door's display area.
+    + The finger pointing icon will appear next to the open door icon if this was successful.
+    + Click the close door button to remove the door held status.
+    
+    ![Door held animation](img/Ops.Held.png)
+
+    + To adjust the access privileges of a credential holder's badge, click the Access Level button.
+    + In the Edit AccessLevel dialog window, click on the green check marks to remove access, and click on the red x-marks to grant access.
 
 === "Activities"
     Image goes here
