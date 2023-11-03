@@ -4,7 +4,7 @@
 
 ***
 > 
-> 
+> Below the interface images, are descriptions of all the available functions each tab offers. Check here for more info about feature and performance testing and demonstration.
 > 
 ***
 
@@ -42,18 +42,56 @@
 
     + Click the Generate... button to open the Generate Doors dialog.
 
-=== "Credentials"
-    Image goes here
+    ![Generate Doors dialog](img/Gen.Doors.png)
     
-    There are three readers physically attached to the 2220 panel. Add readers by matching each set of configuration options from those following the :one: , :two: , and :three: emojis below.
+    + Choose the number of doors to create, define a door prefix, and set the percentage of doors which will have dual readers. (Doors without dual readers will have a single reader.)
+    + Click the **New** button to open the **New Door** dialog.
 
-    > + XPA: OnGuard
-    > + IP Address: 192.168.101.99
-    > + Reader:  :one: LNL-1300 (Single Interface) :two: Onboard :three: Onboard
-    > + Address: :one: 31 :two: 0 :three: 0
-    > + Port: :one: Port 2 :two: Onboard :three: Onboard
-    > + Cardholders: 1 
-    > + Output: :one: OSPD Protocol :two: Wiegand / Prox :three: Mag with Wiegand Output
+    ![New Door dialog](img/New.Door.png)
+
+    + Provide a name for the new door and open the **Access Point** list to choose if the door will have no readers, a single reader or two readers.
+    + Click the pencil icon to open the **Edit Door** dialog.
+
+    ![Edit Door dialog](img/Door.Edit.png)
+
+    + Rename the door, open the **Access Point** list to choose the number of readers the door is associated with, and click the gear icon to change which controller the door is associated to.
+
+=== "Credentials"
+    ![Credentials tab UI](img/WebUICreds.png)
+    
+    + Select the **Credentials** tab.
+    + Click the **Generate...** button to open the **Generate Credentials** dialog.
+    
+    ![Generate credentials dialog](img/Gen.Creds.png)
+    
+    + Define the number of credentials to generate, the number of badges each credential holder will have, and the percentage of badges which will have the employee role (other badges will have the visitor role).
+    + Click **Generate** to add the credentials and badges to the XPA Simulator.
+    + Click the **New** button on the **Credentials** tab to open the **New Credential** dialog.
+
+    ![New credential dialog](img/New.Creds.png)
+
+    + Enter a name and optionally upload an image and click **Save**.
+    + Click the pencil icon to edit the name or change the image of any credential holder in the list.
+    + Click the garbage can icon to delete the credential holder and confirm if you want to delete the credential holder and all of its associated badges.
+    + Find any credential holder in the system using the navigation tools built into the page, or search for your credential holder.
+    + Click the down arrow icon to expand the credential holder configuration menu.
+    
+    ![Badges menu](img/Edit.Creds.png)
+
+    + Click the **Generate...** button to open the **Generate Badges** dialog.
+    + Choose the number of badges to create and set the percentage of badges which will have the employee role. (Badges without employee role will have the visitor role.)
+    + Click the **New** button to open the **New Badge** dialog.
+    + Open the **Role** list to choose if the badge will have the employee or visitor role.
+    + Click the pencil icon to open the **Edit Badge** dialog.
+
+    ![Edit Badge dialog](img/Edit.Badge.png)
+
+    + Open the **Role** list to change the role the badge is associated with, and click the gear icon to change which credential holder the badge is associated to.
+    + Click the Edit Access Levels icon, in between the pencil and the garbage can. This opens the **Edit Access Level** dialog window that allows access to be granted to an individual door on a specific badge.
+
+    ![Edit Access Level dialog](img/AccessLevel.png)
+
+    + Click on the green check marks to remove access, and click on the red x-marks to grant access.
 
 === "Live"
     image goes here
