@@ -9,32 +9,38 @@
 ***
 
 === "System"
-    Image goes here
+    ![Home page UI](img/WebUIHome.png)
         
-    > + XPA: OnGuard
-    > + IP Address: 192.168.101.90
-    > + Reader: Onboard Reader (*connect up to two*)
-    > + Address: 0, 1
-    > + Port: Onboard
-    > + Cardholders: 1, 450
-    > + Output: Wiegand/Prox (*set for each reader*)
+    1. Opening the web UI for the XPA Simulator presents the **Home** tab.
+    2. Click the **Builder** button to choose the size of the system.
+    3. The **Reset** button will remove any configuration that has been applied to the XPA Simulator.
+    4. The **Properties** window shows all of the properties of the XPA Simulator, which are described [here](../Ref/index.md).
 
 === "Users"
-    Image goes here
+    ![Users tab UI](img/AdminUserIn.png)
      
-    > + XPA: CCure
-    > + Instructions for setup!
+    + This tab must be used before connecting to XProtect to [create the user account](../Start/index.md#creating-a-user) that establishes the connection.
 
 === "Controllers"
-    Image goes here
+    ![Controllers tab UI](img/WebUICont.png)
     
-    > + XPA: OnGuard
-    > + IP Address: 10.0.17.46
-    > + Reader: LNL-1320 (Dual Interface)
-    > + Address: 4
-    > + Port: Reader 1, 0
-    > + Cardholders: 1, 400, 450, 401
-    > + Output: Wiegand/Prox (*set for each reader*)
+    + Select the Controllers tab.
+    + Click the Generate... button to open the Generate Controllers dialog.
+    
+    ![Generate controllers dialog](img/Gen.Conts.png)
+    
+    + Define the number of controllers to generate, the number of doors each controller will have, and the percentage of doors which will have dual readers (other doors will only have one reader). Choose a prefix name for each controller and door. Each controller and door created will bear the prefix, along with a unique subsequently assigned numerical suffix
+    + Click **Generate** to add the controllers and doors to the XPA Simulator.
+    + Click the **New** button on the **Controllers** tab to open the **New Controller** dialog.
+    + Enter a name for the controller and click **Save**.
+    + From the list of controllers, click the pencil icon to edit the name of the controller.
+    + Click the garbage can icon to delete the controller and confirm if you want to delete the controller and all of its connected doors and readers.
+    + Find any controller using the navigation tools built into the page, or search for your controller.
+    + Click the down arrow icon to expand the controller configuration menu.
+    
+    ![Doors menu](img/Cont.Edit.png)
+
+    + Click the Generate... button to open the Generate Doors dialog.
 
 === "Credentials"
     Image goes here
