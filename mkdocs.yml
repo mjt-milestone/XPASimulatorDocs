@@ -105,10 +105,11 @@ copyright: >
   <a href="#__consent">Change cookie settings</a>
 plugins:
   - search
-  - rss:
-  - optimize:
-  - pdf-export:
-  - mkdocs-video:
+  - rss
+  - optimize
+  - pdf-export
+  - mkdocs-video
+  - unused_files
 
 nav:
   - Home: index.md

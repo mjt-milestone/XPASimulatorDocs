@@ -12,6 +12,7 @@ pillow~=10.0.0
 cairosvg~=2.7.1
 readtime~=3.0.0
 mkdocs-table-reader-plugin~=2.0.1
+mkdocs-unused-files
  
 # pdf plugin
  
