@@ -198,24 +198,23 @@
     + The events in the event list are a real time display of the stories created when the **Run** button is clicked in either the **Activities** tab or the **Events** tab. Clicking the **Run** button on the **Events** tab creates stories in exactly the same process as when the button is pressed from the **Activities** tab. The **Event** list simply displays the events which are created by the XPA Simulator. If you create an event on the **Events** tab, it is sent to XProtect from the XPA Simulator as soon as it is displayed in the list.
 
 === "Inputs"
-    image goes here
+    ![Inputs tab UI](img/WebUIInputs.png)
     
-    > + XPA: OnGuard
-    > + IP Address: 192.168.101.107
-    > + Reader: LNL-1300 (Single Interface)
-    > + Address: 0
-    > + Port: Reader 1
-    > + Cardholders: 1
-    > + Output: Wiegand/Prox (*set for each reader*)
+    + When a new simulated system is generated, each access point on each door has two inputs and two outputs.
+    + Select the **Inputs** tab. All inputs in the system are listed on this tab.
+    + Click the light bulb icon listed under **CurrentState** to activate the input. Click the light bulb again to deactivate the input.
+
+    ![Input state display](img/InputCurrentState.png)
 
 === "Outputs"
-    Image goes here
+    ![Output tab UI](img/WebUIOutputs.png)
     
-    > + XPA: OnGuard
-    > + IP Address: 192.168.101.107
-    > + Reader: LNL-1300 (Single Interface)
-    > + Address: 0
-    > + Port: Reader 1
-    > + Cardholders: 1
-    > + Output: Wiegand/Prox (*set for each reader*)
+    + When a new simulated system is generated, each access point on each door has two inputs and two outputs. The outputs tab simply displays the status of each of the outputs in the XPA Simulator system. Search for and navigate through the list of all outputs on the outputs tab
+    + Activate inputs and outputs from the XProtect Smart Client.
+
+    ![Activate output from SC](img/IOinSC.png)
+
+    + View the status reflected in the Simulator.
+
+    ![Output status display](img/OutputStatus.png)
 ***
