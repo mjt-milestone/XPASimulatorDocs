@@ -115,6 +115,7 @@ nav:
   - Home: index.md
   - Introduction: 
     - Intro/index.md
+    - Intro/Doitlikethis.md
   - Getting Started: 
     - Start/index.md
   - Building the Simulator:
