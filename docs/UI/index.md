@@ -1,6 +1,6 @@
 # Tour the XPA Simulator UI
 
-## There are several tabs we can choose from:
+**There are several tabs we can choose from:**
 
 ***
 > 

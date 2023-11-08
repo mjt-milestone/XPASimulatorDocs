@@ -93,3 +93,49 @@ Below is a list of the events the XPA Simulator adds into XProtect via the acce
     There are over 1900+ events that the OnGuard XProtect Access integration brings into XProtect.
 
     You can find a documented event list for the most current released version at this [location](https://download.milestonesys.com/lenels2xpa).
+
+## Story Template Configurations
+
+This list below documents the configuration for the four default story templates in the XPA Simulator:
+
+**Standard-Open-Close**
+
++ Five actions make up a Standard-Open-Close story.
+
+```mermaid
+flowchart LR
+    A[SwipeBadge]:::MSClass --> B[Wait 100ms]:::MSClass
+    B --> C[OpenDoor]:::MSClass
+    C --> D[Wait 100ms]:::MSClass
+    D --> E[CloseDoor]:::MSClass
+    classDef MSClass fill:#0cf, stroke:#000, stroke-width:2px
+```
+**Invalid-Badge**
+
++ One action makes an Invalid-Badge story.
+
+```mermaid
+flowchart LR
+    A[SwipeBadge]:::MSClass
+    classDef MSClass fill:#0cf, stroke:#000, stroke-width:2px
+```
+**Force-Open**
+
++ One action makes a Force-Open story.
+
+```mermaid
+flowchart LR
+    A[OpenDoor]:::MSClass
+    classDef MSClass fill:#0cf, stroke:#000, stroke-width:2px
+```
+**Held-Open**
+
++ Four actions make up a Held-Open story.
+
+```mermaid
+flowchart LR
+    A[SwipeBadge]:::MSClass --> B[Wait 100ms]:::MSClass
+    B --> C[OpenDoor]:::MSClass
+    C --> D[Wait 1500ms]:::MSClass
+    classDef MSClass fill:#0cf, stroke:#000, stroke-width:2px
+```
